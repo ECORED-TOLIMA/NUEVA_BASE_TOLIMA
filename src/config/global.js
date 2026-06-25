@@ -1,6 +1,6 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo ',
+    Name: 'Nombre del recurso educativo',
     Description: 'Descripción del RED',
     imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
@@ -41,6 +41,7 @@ export default {
           },
         ],
       },
+
       {
         nombreRuta: 'tema2',
         numero: '2',
@@ -102,8 +103,8 @@ export default {
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: '---',
+      link: '---',
     },
   ],
   creditos: [
@@ -112,13 +113,14 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Líder del Ecosistema',
+          cargo:
+            'Profesional 06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Olga Constanza Bermúdez',
-          cargo: 'Responsable de línea de producción Huila',
-          centro: 'Dirección General',
+          nombre: '---',
+          cargo: 'Responsable de línea de producción',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -126,9 +128,9 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '',
-          cargo: '',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: ' ',
+          cargo: ' ',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -136,22 +138,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '',
-          cargo: 'Diseñador de contenidos digitales',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+          nombre: ' ',
+          cargo: 'Diseñador de contenidos',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '',
+          nombre: ' ',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '',
-          cargo: '',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+          nombre: ' ',
+          cargo: 'Animador y productor audiovisual',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -159,16 +158,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
-          cargo: 'Validador de recursos educativos digitales',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+          nombre: ' ',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+          nombre: ' ',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
